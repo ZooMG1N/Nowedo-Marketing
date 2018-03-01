@@ -1,0 +1,344 @@
+@import "variables";
+@import "fonts";
+
+body * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+.container {
+  width: 77.18%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 107px;
+  background-image: url("../img/bg-header.png");
+
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+
+    .contact-information {
+      display: flex;
+      align-self: flex-end;
+      font-family: "Monts-SemiBold";
+      font-size: 1.12rem;
+      color: #fff;
+      text-align: right;
+
+      .work-phone {
+        margin-top: 0;
+        margin-right: 90px;
+      }
+
+      .work-day {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.main-nav {
+  .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .menu {
+      display: flex;
+      align-self: flex-end;
+      font-family: "Monts-SemiBold";
+      font-size: 1rem;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-right: 46px;
+
+        &:nth-of-type(7) {
+          margin-right: 0;
+        }
+
+        a {
+          display: block;
+          color: #000;
+          text-decoration: none;
+          padding: 20px 0;
+        }
+      }
+    }
+  }
+}
+
+.top-content {
+  box-shadow: inset 0 20px 24px -15px rgba(0, 0, 0, 0.2),
+              inset 0 -20px 24px -15px rgba(0, 0, 0, 0.2);
+
+  &-wrapper {
+    .staff-slider-wrapper {
+      position: relative;
+      height: 575px;
+      overflow: hidden;
+
+      .staff-slider {
+        position: relative;
+        top: 0;
+        transition: 1s;
+
+        .staff-for-kids {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          overflow: hidden;
+
+          .staff-text-content {
+            width: 500px;
+
+            .staff-block-title {
+              font-family: "Monts-Extra-Bold";
+              font-size: 2.5rem;
+              margin-top: 130px;
+              margin-bottom: 42px;
+
+              &:before {
+                content: "";
+                display: inline-block;
+                width: 4px;
+                height: 34px;
+                transform: translateY(3px);
+                background-color: $main-color ;
+                margin-right: 9px;
+              }
+            }
+
+            .staff-description {
+              font-family: "Monts-Medium";
+              font-size: 1.2rem;
+              line-height: 30px;
+              margin: 0;
+            }
+
+            .proceed {
+              display: block;
+              width: 304px;
+              font-family: "Monts-SemiBold";
+              font-size: 1.12rem;
+              color: #fff;
+              text-align: center;
+              text-decoration: none;
+              background-color: $main-color ;
+              padding: 26px 0;
+              margin-top: 61px;
+              margin-bottom: 115px;
+
+              &:before {
+                content: url("../img/before-for-procced-btn.png");
+                margin-right: 15px;
+              }
+
+              &:after {
+                content: url("../img/after-for-procced-btn.png");
+                margin-left: 15px;
+              }
+            }
+
+            .find-out-more {
+              display: flex;
+              align-items: center;
+              font-family: "Roboto";
+              font-size: 1rem;
+              margin-top: 0;
+              margin-bottom: 40px;
+
+              .material-icons {
+                font-size: 1rem;
+              }
+            }
+          }
+
+          img {
+            position: absolute;
+            top: -49px;
+            width: 70.81%;
+            align-self: flex-end;
+          }
+        }
+      }
+
+      .controls-btn {
+        position: absolute;
+        top: 92.3%;
+        left: 25%;
+        z-index: 100;
+
+        .prev {
+          font-family: "Roboto";
+          font-size: 1rem;
+          margin-right: 15px;
+          cursor: pointer;
+
+          .material-icons {
+            font-size: 1rem;
+          }
+        }
+
+        .next {
+          font-family: "Roboto";
+          font-size: 1rem;
+          cursor: pointer;
+
+          .material-icons {
+            font-size: 1rem;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bottom-content {
+  &-wrapper {
+      .bottom-content-title {
+        font-family: "Monts-Extra-Bold";
+        font-size: 2.5rem;
+        margin-top: 65px;
+        margin-bottom: 36px;
+
+        &:before {
+          content: "";
+          display: inline-block;
+          width: 4px;
+          height: 34px;
+          transform: translateY(3px);
+          background-color: $main-color ;
+          margin-right: 9px;
+        }
+      }
+
+    .parent-block-slider-wrapper  {
+      position: relative;
+      height: 750px;
+      overflow: hidden;
+
+      .why-controls-btn {
+        position: absolute;
+        top: 0;
+        left: 58%;
+        font-family: "Roboto";
+        z-index: 100;
+
+        .why-btn {
+          .material-icons {
+            font-size: 1rem;
+          }
+        }
+
+        .what-btn {
+          margin: 010px;
+        }
+
+        .how-btn {
+          .material-icons {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .parent-block-slider {
+        position: relative;
+        top: 0;
+        transition: 1s;
+
+        .why-block {
+          display: flex;
+          position: relative;
+          top: 0;
+          transition: 1s;
+
+          img {
+            width: 58%;
+            margin-top: 70px;
+          }
+
+          .why-text-content {
+            .why-title {
+              font-family: "Monts-Bold";
+              margin-top: 70px;
+            }
+
+            .why-list {
+              list-style-type: none;
+              padding: 0;
+
+              li {
+                font-family: "Monts-Regular";
+                padding-left: 3rem;
+                text-indent: -2.5rem;
+                line-height: 26px;
+                margin-bottom: 30px;
+
+                &:nth-of-type(odd):before {
+                  content: url("../img/check-mark.png");
+                  margin-right: 10px;
+                  transform: translateX(20px);
+                }
+
+                &:nth-of-type(even):before {
+                  content: url("../img/check-mark-yello.png");
+                  margin-right: 10px;
+                  transform: translateX(20px);
+                }
+              }
+            }
+
+            .learn-more {
+              display: block;
+              width: 304px;
+              font-family: "Monts-SemiBold";
+              font-size: 1.12rem;
+              color: #fff;
+              text-align: center;
+              text-decoration: none;
+              background-color: $main-color ;
+              padding: 26px 0;
+              margin-top: 61px;
+              margin-bottom: 151px;
+
+              &:before {
+                content: url("../img/before-for-procced-btn.png");
+                margin-right: 15px;
+              }
+
+              &:after {
+                content: url("../img/after-for-procced-btn.png");
+                margin-left: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.active {
+  color: $main-color;
+}
+
+@import "media-query-1366";
+@import "media-query-1024";
+@import "media-query-900";
+@import "media-query-640";
+@import "media-query-480";
+@import "media-query-320";

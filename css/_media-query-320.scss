@@ -1,0 +1,56 @@
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 90%;
+  }
+
+  .top-content {
+    .staff-slider-wrapper  {
+      height: 440px;
+
+      .controls-btn {
+        top: 87.9%;
+        left: 44%;
+
+        .prev {
+          margin-right: 5px;
+        }
+      }
+
+      .staff-slider {
+        .staff-for-kids {
+          .staff-text-content {
+            .proceed {
+              width: auto;
+              margin: 0;
+            }
+
+            .find-out-more {
+              margin-top: 37px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom-content {
+
+    .bottom-content-title {
+      font-size: 2.3rem;
+    }
+
+    .parent-block-slider-wrapper {
+      height: 850px;
+
+      .parent-block-slider {
+        .why-block {
+          .why-text-content {
+            .learn-more {
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}

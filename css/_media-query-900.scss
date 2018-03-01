@@ -1,0 +1,103 @@
+@media screen and (max-width: 900px) {
+  .header {
+    display: flex;
+    align-items: center;
+    height: 107px;
+
+    .header-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0;
+
+      .burger-menu {
+        margin: 0;
+      }
+
+      .contact-information {
+        .work-phone {
+          margin-right: 30px;
+          font-size: 0.9rem;
+          margin-bottom: 0;
+        }
+
+        .work-day {
+          font-size: 0.9rem;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .main-nav {
+    position: relative;
+    display: none;
+
+    .container {
+      width: 100%;
+
+      .menu {
+        display: flex;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+
+        li {
+          width: 100%;
+          text-align: center;
+          background-color: rgba(0, 0, 0, 0.85);
+          
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .top-content {
+    .staff-slider-wrapper  {
+      height: 333px;
+
+      .staff-slider {
+        .staff-for-kids {
+          img {
+            z-index: -1;
+          }
+
+          .staff-text-content {
+            .proceed {
+              margin-top: 16px;
+            }
+
+            .find-out-more {
+              margin-top: -37px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom-content {
+    .parent-block-slider-wrapper {
+      height: 600px;
+
+      .why-controls-btn {
+        left: 0;
+      }
+
+      .parent-block-slider {
+        .why-block {
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

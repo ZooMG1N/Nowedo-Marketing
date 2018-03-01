@@ -1,0 +1,44 @@
+@media screen and (max-width: 640px) {
+  .top-content {
+    .staff-slider-wrapper  {
+      height: 336px;
+
+      .controls-btn {
+        top: 90%;
+        left: 36%;
+      }
+
+      .staff-slider {
+        .staff-for-kids {
+          img {
+            display: none;
+          }
+
+          .staff-text-content {
+            width: auto;
+
+            .staff-block-title {
+              margin-top: 30px;
+            }
+
+            .staff-description {
+              br {
+                display: none;
+              }
+            }
+
+            .find-out-more {
+              margin-top: -16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom-content {
+    .parent-block-slider-wrapper {
+      height: 600px;
+    }
+  }
+}

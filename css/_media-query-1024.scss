@@ -1,0 +1,61 @@
+@media screen and (max-width: 1024px) {
+  .main-nav {
+    .nav-wrapper {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+
+      .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 0.68rem;
+        align-self: normal;
+
+
+        li {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .top-content {
+    .staff-slider-wrapper  {
+      height: 420px;
+
+      .staff-slider {
+        .staff-for-kids {
+          img {
+            top: 0;
+            right: -12%;
+          }
+
+          .staff-text-content {
+            .staff-block-title {
+              margin-top: 57px;
+            }
+            .proceed {
+              margin-bottom: 48px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom-content {
+    .parent-block-slider-wrapper {
+      height: 770px;
+
+      .parent-block-slider {
+        .why-block {
+          img {
+            display: inline;
+            height: 0%;
+          }
+        }
+      }
+    }
+  }
+}

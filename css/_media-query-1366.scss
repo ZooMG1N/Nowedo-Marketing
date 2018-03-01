@@ -1,0 +1,23 @@
+@media screen and (max-width: 1366px) {
+  .top-content {
+    .staff-slider-wrapper  {
+      height: 500px;
+
+      .staff-slider {
+        .staff-for-kids {
+          .staff-text-content {
+            .proceed {
+              margin-bottom: 48px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom-content {
+    .parent-block-slider-wrapper {
+      height: 850px;
+    }
+  }
+}
